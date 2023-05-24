@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <title>Mani's portfolio</title>
+</head>
+<body>
+    <!--====header===-->
+
+    <header>
+        <nav>
+            <div class="left"> Mani's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#Home" class="nav_link active">Home</a></li>
+                    <li><a href="#About" class="nav_link">About</a></li>
+                    <li><a href="#Skills" class="nav_link">Skills</a></li>
+                    <li><a href="#Contact Me" class="nav_link">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!--===header ends===-->
+
+    <main>
+        <!--=== section home ===-->
+
+        <section class="firstsection" id="Home">
+            <div class="leftsection">
+                Hi, My name is <span class="color">Manikanta</span> 
+                <div>and I am a </div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <a href="https://1drv.ms/w/s!AsNbz5eTMSJfhgfV1ZYuuIl01T0P"><button class="btn">Download Resume</button></a>
+                    <a href="https://github.com/Mani061212"><button class="btn">visit Github</button></a>
+                    <a href="https://www.linkedin.com/in/upputharla-manikanta-594698270/"> <button class="btn">Linkedin</button></a>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="images/bg.png" alt="bg">
+            </div>
+        </section>
+        <hr>
+
+        <!--===== ABOUT =====-->
+        <section class="about-section" id="About">
+            <h2 class="section-title"><i class="uil uil-user"></i> About</h2>
+
+            <div class="about__container">
+                <div class="about__img">
+                    <img src="assets/img/about.png" alt="">
+                </div>
+
+                <div>
+                    <h2 class="about__subtitle">I'am Upputharla Manikanta</h2>
+                    <p><b>Passionate Learner </b></p>
+                    <p class="about__text"> Student at Sri Indu College of Engineering and Technology       </p>  
+                    <p><b><i class="uil uil-university"></i> Affiliated With</b> : Jawaharlal Nehru Technological University,Hyderabad</p>
+                          <p><b><i class="uil uil-envelope-edit"></i> Email</b> : mk7307127@gmail.com</p>
+                          <p><b><i class="uil uil-map-marker-shield"></i> Place</b> : Telangana, India-501510 </p>
+                          <p><b><i class="uil uil-phone-pause"></i> Call Me</b> : +91-6305048027</p>
+                        
+                </div>                                
+            </div>
+        </section>
+        <hr>
+
+        <!--===== SKILLS =====-->
+        <section class="skills-section" id="Skills">
+            <h2 class="section-title"><i class="uil uil-file-copy-alt"></i> Skills</h2>
+
+            <div class="skills__container">          
+                <div>
+                    <h2 class="skills__subtitle">Technical Skills</h2>
+                    <ul=circle>
+                        <li><strong>Programming Languages:</strong>C,C++,Python,Java,Javascript</li>
+                        <li><strong>Web Technologies:</strong>HTML,CSS</li>
+                        <li><strong>Database Management:</strong>My SQL</li>
+                        <li><strong>Miscelleneous:</strong>Node js,Express js</li>
+                        <li><strong>Operating System:</strong>Windows</li>
+                    </ul>
+                    <h3>Key Courses Taken</h3>
+                    <ol>
+                     <li><a href="https://onlinecourses.nptel.ac.in/noc23_cs21/preview">Python For Data Science</a></li>
+                     <li><a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/">The complete 2023 Web Development Bootcamp</a></li>                   
+                    </ol>       
+                </div>
+             </div>
+        </section>
+
+    </main>
+        <footer class="footer">
+
+            <p class="footer__title">Upputharla Mani's Portfolio</p>
+            <div class="footer__social">
+                <a href="https://github.com/Mani061212" target="_blank" class="footer__icon"><i class='bx bxl-github' ></i></a>
+                <a href="https://www.linkedin.com/in/upputharla-manikanta-594698270/" target="_blank" class="footer__icon"><i class='bx bxl-linkedin' ></i></a>
+            </div>
+            <p>Thank you for visiting my Personal Portfolio website. </p>
+
+            <p class="footer__copy">Upputharla Manikanta. All rigths reserved</p>
+        </footer>
+   
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Student', 'Web Developer'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
